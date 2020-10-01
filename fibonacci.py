@@ -1,0 +1,10 @@
+n=int(input('How many Terms?'))
+first=0
+second=1
+k=1
+while k<=n:
+	print(first,end=',')
+	third=first+second
+	first=second
+	second=third
+	k+=1
