@@ -1,4 +1,4 @@
-w=int(input('Enter the Weight of Watermelon-'))
+w=int(input())
 if w%2==0:
     if w==2:
         print('NO')
